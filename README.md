@@ -15,25 +15,25 @@
 ---
 
 ## 🗂️ Struktur Proyek
-├── README.md
-yolov5/
-├── dataset/
-│ ├── images/
-│ │ ├── train/
-│ │ └── val/
-│ └── labels/
-│ ├── train/
-│ └── val/
-├── pothole.yaml
-├── pothole_alert_gui.py
-├── runs/
-│ └── train/
-│ └── pothole_detect/
-│ └── weights/
-│ └── best.pt
-├── train.py
-├── detect.py
-└── ...
+     ├── README.md
+     yolov5/
+     ├── dataset/
+     │ ├── images/
+     │ │ ├── train/
+     │ │ └── val/
+     │ └── labels/
+     │ ├── train/
+     │ └── val/
+     ├── pothole.yaml
+     ├── pothole_alert_gui.py
+     ├── runs/
+     │ └── train/
+     │ └── pothole_detect/
+     │ └── weights/
+     │ └── best.pt
+     ├── train.py
+     ├── detect.py
+     └── ...
 
 
 ---
@@ -55,13 +55,13 @@ Tambahan jika belum terinstal:
 Pelatihan Model (Training)
 Siapkan dataset seperti ini:
 
-dataset/
-├── images/
-│   ├── train/
-│   └── val/
-└── labels/
-    ├── train/
-    └── val/
+    dataset/
+    ├── images/
+    │   ├── train/
+    │   └── val/
+    └── labels/
+        ├── train/
+        └── val/
 Buat file konfigurasi pothole.yaml:
 
      train: dataset/images/train
