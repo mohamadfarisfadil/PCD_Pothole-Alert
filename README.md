@@ -41,16 +41,16 @@ yolov5/
 ## 🛠️ Instalasi
 
 1. **Clone YOLOv5**
-```bash
-git clone https://github.com/ultralytics/yolov5
-cd yolov5
 
-2. Install dependency
+       git clone https://github.com/ultralytics/yolov5
+       cd yolov5
 
-pip install -r requirements.txt
+2. **Install dependency**
+
+       pip install -r requirements.txt
 Tambahan jika belum terinstal:
 
-pip install pillow opencv-python tkinter
+     pip install pillow opencv-python tkinter
 
 Pelatihan Model (Training)
 Siapkan dataset seperti ini:
@@ -64,20 +64,20 @@ dataset/
     └── val/
 Buat file konfigurasi pothole.yaml:
 
-train: dataset/images/train
-val: dataset/images/val
-nc: 1 <- itu jumlah gambar yang bisa di deteksi (jangan lupa di ganti)
-names: ['pothole']
+     train: dataset/images/train
+     val: dataset/images/val
+     nc: 1 <- itu jumlah gambar yang bisa di deteksi (jangan lupa di ganti)
+     names: ['pothole']
 Jalankan training:
 
 python train.py --img 640 --batch 16 --epochs 50 --data pothole.yaml --weights yolov5s.pt --project runs/train --name pothole_detect
 Hasil model akan ada di:
 
-runs/train/pothole_detect/weights/best.pt
+     runs/train/pothole_detect/weights/best.pt
 ▶️ Menjalankan Aplikasi GUI
 Setelah file best.pt tersedia, jalankan GUI:
 
-python pothole_alert_gui.py
+     python pothole_alert_gui.py
 Langkah:
 
 Klik tombol "Pilih Gambar & Deteksi".
