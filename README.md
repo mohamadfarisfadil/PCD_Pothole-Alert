@@ -70,14 +70,18 @@ Buat file konfigurasi pothole.yaml:
      names: ['pothole']
 Jalankan training:
 
-python train.py --img 640 --batch 16 --epochs 50 --data pothole.yaml --weights yolov5s.pt --project runs/train --name pothole_detect
+     python train.py --img 640 --batch 16 --epochs 50 --data pothole.yaml --weights yolov5s.pt --project runs/train --name pothole_detect
+
 Hasil model akan ada di:
 
      runs/train/pothole_detect/weights/best.pt
+     
 ▶️ Menjalankan Aplikasi GUI
+
 Setelah file best.pt tersedia, jalankan GUI:
 
      python pothole_alert_gui.py
+     
 Langkah:
 
 Klik tombol "Pilih Gambar & Deteksi".
@@ -87,6 +91,7 @@ Pilih gambar dari citra drone.
 Hasil akan ditampilkan di jendela aplikasi dan disimpan otomatis ke folder runs/detect/.
 
 ❗ Catatan Penting
+
 Pastikan folder dataset dan file .yaml tidak typo.
 
 Gunakan dataset dengan anotasi format YOLO (.txt) untuk setiap gambar.
@@ -94,9 +99,11 @@ Gunakan dataset dengan anotasi format YOLO (.txt) untuk setiap gambar.
 Semakin banyak variasi citra lubang jalan, semakin baik akurasi model.
 
 👤 Author
+
 Nama: Mohamad Faris Fadil
 
 Judul Proyek: PotholeAlert – Aplikasi Deteksi Lubang Jalan Berbasis Citra Drone
 
 📄 Lisensi
+
 Proyek ini dibuat untuk keperluan pembelajaran dan penelitian. Bebas digunakan untuk keperluan non-komersial.
