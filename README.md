@@ -48,11 +48,38 @@
 2. **Install dependency**
 
        pip install -r requirements.txt
+   
 Tambahan jika belum terinstal:
 
      pip install pillow opencv-python tkinter
 
-Pelatihan Model (Training)
+
+# 🏷️ Membuat Label YOLO (Anotasi)
+
+Untuk membuat file label .txt dari gambar .jpg/.png kamu bisa gunakan website:
+
+    👉 https://www.makesense.ai/
+
+Langkah-langkah:
+
+    Buka https://www.makesense.ai.
+
+Klik "Get Started" → Upload gambar citra lubang jalan.
+
+Pilih "Object Detection" → masukkan nama label (misalnya pothole).
+
+Gambar bounding box di setiap lubang jalan.
+
+Setelah selesai, klik Export → Pilih format YOLO.
+
+Download hasil .txt dan letakkan di folder:
+
+
+    dataset/labels/train/
+    dataset/labels/val/
+
+# Pelatihan Model (Training)
+
 Siapkan dataset seperti ini:
 
     dataset/
