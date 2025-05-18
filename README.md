@@ -287,7 +287,6 @@ Judul Proyek: PotholeAlert – Aplikasi Deteksi Lubang Jalan Berbasis Citra Dron
 
 Proyek ini dibuat untuk keperluan pembelajaran dan penelitian. Bebas digunakan untuk keperluan non-komersial.
 
-Video Dokumentasi Video:
-[![Watch the video](https://img.youtube.com/vi/-P8CHT2jv_M/maxresdefault.jpg)](https://youtu.be/-P8CHT2jv_M)
+[![Watch the video](https://img.youtube.com/vi/8GUCpbSxczg/maxresdefault.jpg)](https://youtu.be/8GUCpbSxczg)
 
-### [Watch this video on YouTube](https://youtu.be/-P8CHT2jv_M)
+### [Watch this video on YouTube](https://youtu.be/8GUCpbSxczg)
